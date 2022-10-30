@@ -1,0 +1,14 @@
+name: daily
+on:
+  schedule:
+    - cron: '00 06 * * *'
+jobs:
+  daily:
+    name: daily
+    runs-on: ubuntu-latest
+    steps:
+      - uses: echo
+        run: |
+          echo 'daily'
+          echo 'daily'
+          echo 'daily'
