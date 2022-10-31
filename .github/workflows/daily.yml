@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: echo
         run: |
-          echo 'daily'
-          echo 'daily'
-          echo 'daily'
+          echo '--- date'
+          date
+          echo '--- date'
